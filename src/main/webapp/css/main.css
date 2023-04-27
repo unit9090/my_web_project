@@ -1,0 +1,18 @@
+/* 메인 화면 */
+body{
+    overflow-x: hidden; scroll-margin: 0; scroll-padding: 0;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none; 
+}
+
+
+/* 멀티 단 */
+.sec{display: block; position: relative; top:-80px; z-index:1; width: 100%; height: 1080px;}
+.sec:nth-of-type(2){background-color: rgb(31, 107, 206)}
+.sec:nth-of-type(3){background-color: burlywood;}
+.sec:nth-of-type(4){background-color: rgb(82, 170, 119);}
