@@ -17,8 +17,8 @@ body {
 /* Scroll down */
 
 #container{
-    width:100%;
-    height:100vh; 
+    width: 100vw;
+    height: 100vh; 
     overflow: auto;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
@@ -26,7 +26,7 @@ body {
 
 .list{
     width:100%; 
-    height:100vh;
+    height:100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,8 +41,10 @@ body {
 }
 
 #container > div.list:nth-child(2){
-    background-color: black;
+    /* background-image: url('images/background.png'); */
+    background-color: #1e1e1e;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed; 
     background-position: center; 
 }
